@@ -1,8 +1,40 @@
-body {
-  background-color: aquamarine;
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  padding: 12px 16px;
+  transform: translate(0%, -50%);
 }
 
-.App {
+.close:hover {background: #bbb;}
+
+ul li:hover {
+  background-color: #eee;
+}
+
+ul li {
+  border: 1px solid #ddd;
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.todo-list {
   text-align: center;
 }
-
